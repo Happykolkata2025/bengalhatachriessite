@@ -4,119 +4,134 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bengal Hatcheries & Poultries Pvt. Ltd.</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body {
+    * {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f5f2eb;
-      color: #3b3b3b;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Raleway', sans-serif;
+    }
+    body {
+      background: #fff8ed;
+      color: #333;
     }
     header {
-      background-color: #7c9a5f;
-      color: white;
-      padding: 20px 30px;
+      background: linear-gradient(135deg, #f26b38, #e91e63);
+      padding: 2rem;
       text-align: center;
+      color: white;
     }
-    header h1 {
-      margin: 0;
-      font-size: 2em;
+    header img.logo {
+      max-width: 120px;
+      margin-bottom: 1rem;
     }
-    header p {
-      font-style: italic;
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #ffcf76;
+      padding: 1rem;
     }
-    main {
-      padding: 30px;
-      line-height: 1.6;
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
     }
     section {
-      margin-bottom: 40px;
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
     }
     h2 {
-      color: #5b794d;
-      border-bottom: 1px solid #ccc;
-      padding-bottom: 5px;
+      color: #e91e63;
+      margin-bottom: 1rem;
     }
-    .address-block {
-      margin-top: 10px;
-      padding-left: 15px;
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 0.5rem;
     }
     footer {
-      background-color: #7c9a5f;
-      color: white;
+      background: #f26b38;
       text-align: center;
-      padding: 15px;
-      margin-top: 50px;
-    }
-    a {
-      color: #5b794d;
+      padding: 2rem;
+      margin-top: 2rem;
+      color: white;
     }
   </style>
 </head>
 <body>
   <header>
+    <img class="logo" src="/mnt/data/WhatsApp Image 2025-04-06 at 11.25.53 AM (1).jpeg" alt="Company Logo">
     <h1>Bengal Hatcheries & Poultries Pvt. Ltd.</h1>
-    <p>Dare to be Different Chicken</p>
+    <h3 style="margin-top: 0.5rem; font-style: italic; font-weight: normal;">Dare to be Different Company</h3>
+    <p>Chicken farming, egg hatching, chick integration & farmer support</p>
   </header>
-  <main>
-    <section>
-      <h2>Invitation</h2>
-      <p>
-        Dear Guest,<br><br>
-        Warm greetings to you.<br><br>
-        We are delighted to announce the grand inauguration of our new company,
-        <strong>Bengal Hatcheries & Poultries Private Limited</strong>.<br><br>
-        It would be our utmost honor and joy to have you with us on this special occasion.
-        Your presence and blessings will inspire us on our journey ahead.
-        <br><br>
-        <strong>Inauguration Ceremony</strong><br>
-        📅 Date: 15th April, 2025<br>
-        🕓 Time: 11:00 AM onwards<br>
-        📍 Venue: Arambagh – Kamarpukur Road, Near by – B.S.N.L. Office,<br>
-        P.O.- Goghat, P.S.- Goghat,<br>
-        Dist.- Hooghly, PIN- 712614<br><br>
-        We sincerely request the pleasure of your company as we mark the beginning of this new venture.
-      </p>
-    </section>
 
-    <section>
-      <h2>About Us</h2>
-      <p>
-        Bengal Hatcheries & Poultries Private Limited is dedicated to excellence in poultry farming and chick hatching.
-        We specialize in providing high-quality, healthy chicks to farmers for further growth and development.
-        Our mission is to support the poultry farming community with dependable hatchery services and a commitment
-        to quality, innovation, and sustainability.
-      </p>
-    </section>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-    <section>
-      <h2>Contact Information</h2>
-      <p>
-        📞 Phone: 6289637390<br>
-        📧 Email: <a href="mailto:happyhensfarm.kolkata@gmail.com">happyhensfarm.kolkata@gmail.com</a>
-      </p>
+  <section id="home">
+    <h2>Welcome to Bengal Hatcheries!</h2>
+    <p>We bring you healthy chicks, reliable feed, and trusted support to make poultry farming profitable and sustainable.</p>
+  </section>
 
-      <div class="address-block">
-        <strong>Registered Office:</strong><br>
-        573, Vill- Uttar Gobindanagar,<br>
-        P.O.- Chechua Gobindanagar,<br>
-        P.S.- Daspur,<br>
-        Dist.- Paschim Midnapore, PIN- 721146
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Bengal Hatcheries & Poultries Pvt. Ltd. is committed to providing high-quality chicks, hatching services, and integration support to farmers. We ensure quality feed, essential medicines, and expert guidance for successful poultry farming.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1589712235273-0ad87f1ee6d6" alt="Chicken Farming">
+        <h3>Chicken Farming</h3>
+        <p>Efficient and sustainable poultry farming practices that ensure healthy chicken production.</p>
       </div>
-
-      <div class="address-block">
-        <strong>Regional Offices:</strong><br>
-        <em>1. Arambagh – Kamarpukur Road</em>, Near by – B.S.N.L. Office,<br>
-        P.O.- Goghat, P.S.- Goghat,<br>
-        Dist.- Hooghly, PIN- 712614<br><br>
-
-        <em>2. Baruipur Fultala</em>, P.S.- Baruipur,<br>
-        P.O.- Piyali Town, Near by – B.D.O. Office,<br>
-        Dist.- South 24 Parganas, PIN- 743387
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1610702515688-0663dada64f9" alt="Egg Hatching">
+        <h3>Egg Hatching</h3>
+        <p>Advanced egg hatching services to produce high-quality chicks with high survival rate.</p>
       </div>
-    </section>
-  </main>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1607892437995-d09b276b2b7c" alt="Chick Supply">
+        <h3>Chick Supply</h3>
+        <p>Reliable chick delivery and integration services for local poultry farmers.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1590080876395-6b4951b65aeb" alt="Farmer Support">
+        <h3>Farmer Support</h3>
+        <p>Comprehensive support including feed, medicine, and veterinary assistance for farmers.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p><strong>Samaresh Das</strong><br>Managing Director<br>Email: happyhensfarm.kolkata@gmail.com<br>Phone: +91-6289637390</p>
+  </section>
+
   <footer>
-    &copy; 2025 Bengal Hatcheries & Poultries Pvt. Ltd. | All rights reserved.
+    <p>&copy; 2025 Bengal Hatcheries & Poultries Pvt. Ltd. All rights reserved.</p>
   </footer>
 </body>
 </html>
